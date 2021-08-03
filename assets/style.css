@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Proxima Nova Condensed Bold';
+    src: url("./fonts/proxima_nova_cond_bold.ttf") format('truetype')
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +17,10 @@ body {
     background-color: #FFFEF4;
 }
 
+main {
+    top: 80px;
+}
+
 .button {
     height: 40px;
     width: 120px;
@@ -23,16 +32,16 @@ body {
 
 .green {
     background-color: #8BB698;
-    border-color:  #8BB698;
 }
 
 .eggshell {
     background-color: #FFFEF4;
-    border: 3px lightgrey;
+    border: 2px solid black;
 }
 
 .button h3 {
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .eggshell h3 {
@@ -44,29 +53,73 @@ body {
     background-color: #8BB698;
 }
 
+/* Navigation Bar */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #FFFEF4;
+}
+
 nav {
+    max-width: 1280px;
+    min-width: 770px;
     width: 100%;
     height: 80px;
     padding: 20px 70px;
+    margin: 0 auto;
     background-color: #FFFEF4;
-    position: absolute;
+    position: relative;
     z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Proxima Nova Condensed Bold';
+}
+
+nav ul {
+    max-width: 510px;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav li {
     display: inline-block;
+    padding: 5px;
+    letter-spacing: 1px;
 }
 
-logo {
+.logo img {
     height: 28px;
+    padding: 0 15px;
 }
 
 .nav-button-container {
-
     display: flex;
+    padding: 0 15px 0 0;
+    max-width: 295px;
+    width: 100%;
+    display: relative;
+    justify-content: space-between;
+}
+
+/* Section 1: Landing Block */
+.landing {
+    width: 100%;
+    max-height: 1200px;
+    overflow: hidden;
+}
+
+.landing img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.landing h1 {
+    font-size: 40px;
 }
 
 /* @media only screen and (min-device XYZ) */
