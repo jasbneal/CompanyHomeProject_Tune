@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    font-size: 18px;
+}
+
+body {
+    background-color: #FFFEF4;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: #8BB698;
+    border-color:  #8BB698;
+}
+
+.eggshell {
+    background-color: #FFFEF4;
+    border: 3px lightgrey;
+}
+
+.button h3 {
+    font-size: 14px;
+}
+
+.eggshell h3 {
+    color: rgba(64,62,56,.95);
+}
+
+.green h3 {
+    color: #FFFEF4;
+    background-color: #8BB698;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding: 20px 70px;
+    background-color: #FFFEF4;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+logo {
+    height: 28px;
+}
+
+.nav-button-container {
+
+    display: flex;
+}
+
+/* @media only screen and (min-device XYZ) */
