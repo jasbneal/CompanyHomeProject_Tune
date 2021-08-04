@@ -53,6 +53,20 @@ main {
     background-color: #8BB698;
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 /* Navigation Bar */
 
 header {
@@ -109,17 +123,30 @@ nav li {
 .landing {
     width: 100%;
     max-height: 1200px;
+}
+
+.landing .img-container {
+    width: 100%;
     overflow: hidden;
 }
 
 .landing img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
 
 .landing h1 {
     font-size: 40px;
+}
+
+/* Content Below the Fold */
+
+.main-home-content {
+    padding: 0 70px;
+    margin: 0 auto;
+    width: 1280px;
+    max-width: 1280px;
 }
 
 /* @media only screen and (min-device XYZ) */
