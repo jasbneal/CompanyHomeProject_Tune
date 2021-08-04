@@ -73,6 +73,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #FFFEF4;
+    z-index: 10;
 }
 
 nav {
@@ -84,7 +85,6 @@ nav {
     margin: 0 auto;
     background-color: #FFFEF4;
     position: relative;
-    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,23 +121,48 @@ nav li {
 
 /* Section 1: Landing Block */
 .landing {
+    top: 80px;
+    position: relative;
     width: 100%;
+    height: 1200px;
     max-height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .landing .img-container {
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden; */
+    grid-area: 1 / 1 / span 6 / span 12;
 }
 
 .landing img {
     width: 100%;
-    height: auto;
     display: block;
 }
 
+.landing-header {
+    grid-area: 2 / 2 / span 2 / span 6;
+    /*align-self: center; */
+    padding: 0 15px;
+}
+
 .landing h1 {
-    font-size: 40px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 100px;
+    font-family: "Proxima Nova Condensed Bold";
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0 0 1px 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .landing h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
 }
 
 /* Content Below the Fold */
