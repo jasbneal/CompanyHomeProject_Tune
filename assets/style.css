@@ -3,6 +3,16 @@
     src: url("./fonts/proxima_nova_cond_bold.ttf") format('truetype')
 }
 
+@font-face {
+    font-family: 'Proxima Nova Condensed Regular';
+    src: url("./fonts/proximanovacond-regular.otf") format('opentype')
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url("./fonts/Proxima\ Nova\ Regular.otf") format('opentype')
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -67,6 +77,35 @@ a:active {
     text-decoration: none;
 }
 
+button {
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+button:hover {
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    cursor: pointer;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.play-pinkback-whitefill {
+    height: 68px;
+    width: 69px;
+    background-color: #FFD0B6;
+    border-radius: 50%;
+}
+
 /* Navigation Bar */
 
 header {
@@ -124,8 +163,8 @@ nav li {
     top: 80px;
     position: relative;
     width: 100%;
-    height: 1200px;
-    max-height: 1200px;
+    /*height: 1200px; */
+    /*max-height: 1200px; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -139,6 +178,7 @@ nav li {
 
 .landing img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -168,10 +208,159 @@ nav li {
 /* Content Below the Fold */
 
 .main-home-content {
+    margin-top: -105px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-height: 1300px;
     padding: 0 70px;
-    margin: 0 auto;
-    width: 1280px;
     max-width: 1280px;
+    z-index: 9;
 }
+
+/* Section 2: TuneBed Video */
+
+.bed-video-container {
+    width: 100%;
+    height: 545px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 60px;
+    background-color: rgba(64, 62, 56, 95);
+}
+
+.bed-video-title {
+    padding: 0 15px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bed-video-title h4 {
+    padding: 101px 15px 0 15px;
+    font-family: 'Proxima Nova Condensed Regular';
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #fffef4;
+    font-weight: normal;
+}
+
+.bed-video-title h3 {
+    padding: 30px 15px 0 15px;
+    font-size: 60px;
+    font-family: 'Proxima Nova Condensed Bold';
+    line-height: 58px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fffef4;
+}
+
+button.play-pinkback-whitefill {
+    margin-top: 50px;
+}
+
+/* Section 3: Tuning */
+.tuning {
+    width: 100%;
+    display: inline-flex;
+    padding-bottom: 48px;
+}
+
+.tuning-text-container {
+    padding: 0 70px;
+    width: 45%;
+    max-width: 555px;
+
+}
+
+.tuning-title h3 {
+    color: #2c2e2c;
+    font-family: 'Proxima Nova Condensed Bold';
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 48px;
+}
+
+.tuning-title h4,
+.tuning-paragraph p {
+    color: #2c2e2c;
+    font-family: 'Proxima Nova Regular';
+    line-height: 2rem;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+.tuning-p1 {
+    padding-top: 48px;
+}
+
+.tuning-p2 {
+    padding-top: 24px;
+}
+
+.tuning-learn-more {
+    padding-top: 24px;
+}
+
+.tuning-learn-more a {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#tuning-p3 {
+    font-family: 'Proxima Nova Condensed Bold';
+    line-height: 16px;
+    font-weight: 400;
+    padding-right: .25rem;
+}
+
+.tuning-large-img-container {
+    padding: 0 15px;
+    width: 360px;
+    min-width: 360px;
+    max-width: 360px;
+    min-height: 509px;
+    max-height: 509px;
+    overflow: hidden;
+}
+
+.tuning-large-img img {
+    height: 100%;
+    width: auto;
+    transform: translateX(-20%)
+    /* object-fit: cover; */
+}
+
+.tuning-small-img-container {
+    width: 22%;
+}
+
+/* Section 4: How It Works */
+.how-it-works-container {
+    width: 100%;
+    height: 519px;
+    padding: 20px;
+    margin-bottom: 96px;
+    border: 1px solid #FCE7D5;
+}
+
+.how-it-works-container h2 {
+    color: #2c2e2c;
+    font-family: 'Proxima Nova Condensed Bold';
+    font-size: 2rem;
+    margin: 12px 0 78px;
+    text-align: center;
+}
+
+.hiw-1,
+.hiw-2,
+.hiw-3 {
+    padding: 16px;
+
+}
+
 
 /* @media only screen and (min-device XYZ) */
