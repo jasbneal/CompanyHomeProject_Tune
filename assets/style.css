@@ -214,7 +214,7 @@ nav li {
     margin-right: auto;
     margin-bottom: 96px;
     width: 100%;
-    max-height: 1300px;
+    /* max-height: 1300px; */
     padding: 0 70px;
     max-width: 1280px;
     z-index: 9;
@@ -431,12 +431,50 @@ button.play-pinkback-whitefill {
 }
 
 /* Section 5: Tune Sessions (no longer main-home content) */
-/*.tune-sessions-container {
-    position: relative;
+.tune-sessions {
     width: 100%;
-    background-color: rgba(64, 62, 56, 95);
-    padding: 50px 40px;
+    background-color: #2d2e2c;
+    height: 667px;
+    padding: 100px 0 167px 0;
+    margin: 0 auto;
+}
 
-} */
+.tune-sessions-container {
+    margin: 0 24px;
+    padding: 0 70px;
+    display: flex;
+}
+
+.sessions-text {
+    padding: 0 15px;
+    height: 400px;
+}
+
+.sessions-text h2 {
+    font-size: 2rem;
+    font-family: 'Proxima Nova Condensed Bold';
+    line-height: 46px;
+    letter-spacing: 0;
+    color: #fffef4;
+}
+
+.explore-sounds {
+    margin: 47px 0;
+}
+
+.session-play-container {
+    background-color: #fffef4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.session-play-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 40%;
+}
 
 /* @media only screen and (min-device XYZ) */
