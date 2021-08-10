@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons/Arrow/Long/Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.00510888,11.8871096 C5.39193046,12.2739312 5.39165147,12.9013718 4.99840452,13.2946188 L4.99840452,13.2946188 C4.60788023,13.6851431 3.96775922,13.6781871 3.58659629,13.2970241 L0.2888924,9.99932024 C-0.100303461,9.61012438 -0.0922705329,8.97108028 0.2888924,8.58991735 L3.58659629,5.29221346 C3.97579215,4.9030176 4.60515756,4.90137184 4.99840452,5.29461879 L4.99840452,5.29461879 C5.38892881,5.68514309 5.38669432,6.32054255 5.00510888,6.70212799 L3.41261808,8.29461879 L16.9958643,8.29461879 C17.549552,8.29461879 17.9984045,8.73848362 17.9984045,9.29461879 L17.9984045,9.29461879 C17.9984045,9.84690354 17.5458867,10.2946188 16.9958643,10.2946188 L3.41261808,10.2946188 L5.00510888,11.8871096 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Arrow/Long/Right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="rgba(0, 0, 0, 0)">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#FFD0B6" transform="translate(8.999202, 9.292603) scale(-1, 1) translate(-8.999202, -9.292603) " xlink:href="#path-1"></use>
+        <!-- <g id="Tint/Color-01" mask="url(#mask-2)" fill="#8BB698">
+            <rect id="Color" x="0" y="0" width="18" height="18"></rect>
+        </g> -->
+    </g>
+</svg>

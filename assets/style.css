@@ -436,18 +436,19 @@ button.play-pinkback-whitefill {
     background-color: #2d2e2c;
     height: 667px;
     padding: 100px 0 167px 0;
-    margin: 0 auto;
 }
 
 .tune-sessions-container {
-    margin: 0 24px;
+    width: 100%;
     padding: 0 70px;
     display: flex;
+    justify-content: center;
 }
 
 .sessions-text {
     padding: 0 15px;
     height: 400px;
+    max-width: 685px;
 }
 
 .sessions-text h2 {
@@ -460,6 +461,9 @@ button.play-pinkback-whitefill {
 
 .explore-sounds {
     margin: 47px 0;
+    display: flex;
+    align-items: center;
+    width: 218px;
 }
 
 .session-play-container {
@@ -467,6 +471,7 @@ button.play-pinkback-whitefill {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    margin-right: 10px;
     overflow: hidden;
 }
 
@@ -476,5 +481,60 @@ button.play-pinkback-whitefill {
     display: block;
     padding: 40%;
 }
+.sessions-copy {
+    font-family: 'Proxima Nova Regular';
+    width: 100%;
+    height: 163px;
+    color: rgba(255,254,244,.6);
+    line-height: 32px;
+}
+
+.explore-sounds p,
+.sessions-learn-more p {
+    font-family: 'Proxima Nova Condensed Bold';
+    line-height: 16px;
+    color: #fffef4;
+}
+
+.sessions-learn-more p {
+    padding-right: .25rem;
+}
+
+.sessions-learn-more {
+    position: relative;
+    margin-top: 48px;
+}
+
+.sessions-learn-more a {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.sessions-circle-container {
+    padding: 0 15px;
+    width: 487.5px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessions-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #8bb698;
+}
+
+/* Section 6: Testimonials */
+.testimonials-container {
+    width: 100%;
+    padding: 57px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 /* @media only screen and (min-device XYZ) */
