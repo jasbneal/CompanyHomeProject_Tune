@@ -343,7 +343,7 @@ button.play-pinkback-whitefill {
 /* Section 4: How It Works */
 .how-it-works-container {
     width: 100%;
-    height: 593px;
+    min-height: 593px;
     padding: 20px;
     border: 1px solid #FCE7D5;
     
@@ -428,6 +428,20 @@ button.play-pinkback-whitefill {
     line-height: 2rem;
     letter-spacing: 0;
     text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+    .hiw-icon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hiw-1,
+    .hiw-2,
+    .hiw-3 {
+        padding: 16px;
+        width: 100%;
+    }
 }
 
 /* Section 5: Tune Sessions (no longer main-home content) */
@@ -526,15 +540,62 @@ button.play-pinkback-whitefill {
     background-color: #8bb698;
 }
 
+@media only screen and (max-width: 990px) {
+    .sessions-circle-container {
+        display: none;
+    }
+}
+
 /* Section 6: Testimonials */
 .testimonials-container {
-    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 57px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
     text-align: center;
 }
 
+.testimonials-container h3 {
+    font-size: 2rem;
+    line-height: 46px;
+    font-family: 'Proxima Nova Condensed Bold';
+    color: #2C2E2C;
+    margin-bottom: 48px;
+}
 
+.quote-mark {
+    width: 55px;
+    height: 41px;
+    margin: 0 auto;
+}
 
-/* @media only screen and (min-device XYZ) */
+blockquote {
+    font-family: 'PT Serif';
+    font-size: 29px;
+    text-align: left;
+    line-height: 44px;
+    letter-spacing: 0;
+    padding: 40px 80px 20px 80px;
+    color: rgba(44,46,44,0.8);
+    opacity: .8;
+}
+
+cite {
+    font-family: 'PT Serif';
+    font-style: normal;
+    line-height: 32px;
+    font-size: 28px;
+    padding: 0 80px 10px 0;
+    text-align: right;
+    color: rgba(44,46,44,0.8);
+}
+
+.testimonials-container p { 
+    font-size: 12px;
+    padding: 0 80px 60px 0;
+    text-align: right;
+    color: rgba(44,46,44,0.8);
+}
