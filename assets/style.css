@@ -546,12 +546,12 @@ button.play-pinkback-whitefill {
     }
 }
 
-/* Section 6: Testimonials */
+/* Section 6A: Testimonials */
 .testimonials-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 57px 0;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -599,3 +599,61 @@ cite {
     text-align: right;
     color: rgba(44,46,44,0.8);
 }
+
+/* Section 6B: Our Story / Team / Founders */
+.team-container {
+    width: 100%;
+    max-width: 1280px;
+    height: 606px;
+    padding: 48px 0;
+}
+
+.team-container h3 {
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-img-container {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.founder-img1 {
+    /*transform: translateX(-30%); */
+    width: 100%;
+    transform: translateY(-20%);
+    display: block;
+}
+
+.founder-img2 {
+    width: 100%;
+    height: auto;
+    transform: translateY(-20%);
+    display: block;
+}
+
+.founder-bio {
+    color: #2c2e2c;
+    font-family: 'Proxima Nova Regular';
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
