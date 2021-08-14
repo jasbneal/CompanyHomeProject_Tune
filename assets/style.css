@@ -620,6 +620,32 @@ button.play-pinkback-whitefill {
 
 .location-phone {
     padding-top: 0;
+    height: 1rem;
+    padding-bottom: 40px;
+}
+
+a.loc-book {
+    margin: 0 31px 29px 221px;
+    width: 69px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 775px) {
+    #l4,
+    #l5,
+    #l6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .location-block {
+        margin: 10px;
+        width: 275px;
+    }
 }
 
 /* Section 7: Our Story / Team / Founders */
