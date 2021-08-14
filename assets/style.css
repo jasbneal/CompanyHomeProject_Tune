@@ -183,7 +183,7 @@ nav li {
 }
 
 .landing-header {
-    grid-area: 2 / 2 / span 2 / span 6;
+    grid-area: 2 / 2 / span 3 / span 6;
     /*align-self: center; */
     padding: 0 15px;
 }
@@ -196,6 +196,12 @@ nav li {
     color: #FFFFFF;
     text-align: left;
     margin: 0 0 1px 0;
+}
+
+.landing h3 {
+    font-family: 'Proxima Nova Condensed Bold';
+    font-size: 26px;
+    color: #FFFFFF;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -604,38 +610,41 @@ cite {
 .team-container {
     width: 100%;
     max-width: 1280px;
-    height: 606px;
-    padding: 48px 0;
+    padding: 48px;
+    margin: 0 auto;
 }
 
 .team-container h3 {
     text-align: center;
+    color: #2c2e2c;
+    font-family: 'Proxima Nova Condensed Bold';
+    font-size: 2rem;
+    margin: 12px;
 }
 
 .team {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px;
 }
 
 .founder {
     width: 50%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .founder-img-container {
     width: 210px;
     height: 210px;
-    border-radius: 50%;
     overflow: hidden;
     margin: 10px;
+    border-radius: 50%;
 }
 
 .founder-img1 {
-    /*transform: translateX(-30%); */
     width: 100%;
     transform: translateY(-20%);
     display: block;
@@ -648,12 +657,34 @@ cite {
     display: block;
 }
 
+.founder h4 {
+    font-family: 'Proxima Nova Condensed Bold';
+    font-size: 1.25rem;
+    line-height: 16px;
+    color: #2c2e2c;
+    padding: 10px 0;
+}
+
 .founder-bio {
+    padding: 10px 0;
     color: #2c2e2c;
     font-family: 'Proxima Nova Regular';
     line-height: 1.5rem;
     letter-spacing: 0;
     text-align: center;
+    height: 200px;
 }
 
+@media only screen and (max-width: 450px) {
+    .team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .founder-bio {
+        display: none;
+    }
+}
+
+/* Section 7: Partners */
