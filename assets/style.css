@@ -468,7 +468,7 @@ button.play-pinkback-whitefill {
 
 .sessions-text {
     padding: 0 15px;
-    height: 400px;
+    min-height: 400px;
     max-width: 685px;
 }
 
@@ -522,7 +522,6 @@ button.play-pinkback-whitefill {
 }
 
 .sessions-learn-more {
-    position: relative;
     margin-top: 48px;
 }
 
@@ -550,6 +549,22 @@ button.play-pinkback-whitefill {
 @media only screen and (max-width: 990px) {
     .sessions-circle-container {
         display: none;
+    }
+
+    .tune-sessions {
+        padding: 50px 10px;
+    }
+
+    .sessions-text {
+       height: 100%;
+    }
+
+    .tune-sessions-container {
+        padding: 0 15px;
+    }
+
+    .sessions-learn-more {
+        margin-top: 42px;
     }
 }
 
@@ -731,8 +746,27 @@ button.play-pinkback-whitefill {
         align-items: center;
     }
 
+    .founder {
+        width: 100%;
+    }
+
     .founder-bio {
         display: none;
     }
 }
 
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #2c2e2c;
+}
+
+.newsletter-container {
+    height: 288px;
+    width: 332px;
+}
+
+.copyright {
+    width: 332px;
+}
