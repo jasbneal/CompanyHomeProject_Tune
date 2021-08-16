@@ -115,7 +115,11 @@ header {
     z-index: 10;
 }
 
-nav {
+.mobile-nav {
+    display: none;
+}
+
+.desktop-nav {
     max-width: 1280px;
     min-width: 770px;
     width: 100%;
@@ -130,7 +134,7 @@ nav {
     font-family: 'Proxima Nova Condensed Bold';
 }
 
-nav ul {
+.desktop-nav ul {
     max-width: 510px;
     width: 100%;
     padding: 0 15px;
@@ -138,7 +142,7 @@ nav ul {
     justify-content: space-around;
 }
 
-nav li {
+.desktop-nav li {
     display: inline-block;
     padding: 5px;
     letter-spacing: 1px;
@@ -156,6 +160,16 @@ nav li {
     width: 100%;
     display: relative;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-flex;
+    }
 }
 
 /* Section 1: Landing Block */
