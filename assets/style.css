@@ -357,6 +357,27 @@ button.play-pinkback-whitefill {
     margin-top: 50px;
 }
 
+@media only screen and (max-width: 540px) {
+    .bed-video-container {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .bed-video-title h4 {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .bed-video-title h3 {
+        font-size: 45px;
+        padding: 0px;
+    }
+
+
+}
+
 /* Section 3: Tuning */
 .tuning {
     width: 100%;
