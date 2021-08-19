@@ -380,6 +380,7 @@ button.play-pinkback-whitefill {
 .tuning {
     width: 100%;
     display: inline-flex;
+    justify-content: space-between;
     padding-bottom: 48px;
 }
 
@@ -387,7 +388,6 @@ button.play-pinkback-whitefill {
     padding: 0 30px 0 70px;
     width: 45%;
     max-width: 590px;
-
 }
 
 .tuning-title h3 {
@@ -436,10 +436,9 @@ button.play-pinkback-whitefill {
 }
 
 .tuning-large-img-container {
-    padding: 0 15px;
-    width: 360px;
-    min-width: 360px;
-    max-width: 360px;
+    margin: 0 15px;
+    min-width: 330px;
+    max-width: 330px;
     min-height: 509px;
     max-height: 509px;
     overflow: hidden;
@@ -450,6 +449,11 @@ button.play-pinkback-whitefill {
     width: auto;
     transform: translateX(-20%)
     /* object-fit: cover; */
+}
+
+.tuning-small-img-container {
+    margin: 0 15px;
+
 }
 
 .tuning-small-img-container {
