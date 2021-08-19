@@ -374,8 +374,6 @@ button.play-pinkback-whitefill {
         font-size: 45px;
         padding: 0px;
     }
-
-
 }
 
 /* Section 3: Tuning */
@@ -386,9 +384,9 @@ button.play-pinkback-whitefill {
 }
 
 .tuning-text-container {
-    padding: 0 70px;
+    padding: 0 30px 0 70px;
     width: 45%;
-    max-width: 555px;
+    max-width: 590px;
 
 }
 
@@ -411,10 +409,14 @@ button.play-pinkback-whitefill {
 
 .tuning-p1 {
     padding-top: 48px;
+    opacity: .6;
+    line-height: 32px;
 }
 
 .tuning-p2 {
     padding-top: 24px;
+    opacity: .6;
+    line-height: 32px;
 }
 
 .tuning-learn-more {
@@ -452,6 +454,46 @@ button.play-pinkback-whitefill {
 
 .tuning-small-img-container {
     width: 22%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tuning-small-img-container {
+        display: none;
+    }
+
+    .tuning-text-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .tuning {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tuning-text-container {
+        padding: 0 25px;
+        width: 100%;
+    }
+
+    .tuning-title h3 {
+        margin-top: 0;
+    }
+
+    .tuning-large-img-container {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .tuning-p1 {
+        padding-top: 15px;
+    }
+
+    .tuning-text-container {
+        padding: 0 15px;
+    }
 }
 
 /* Section 4: How It Works */
