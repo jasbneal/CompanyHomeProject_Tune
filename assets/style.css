@@ -458,6 +458,12 @@ button.play-pinkback-whitefill {
 
 .tuning-small-img-container {
     width: 22%;
+    overflow: hidden;
+}
+
+.tuning-small-img-container img {
+    width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 1200px) {
