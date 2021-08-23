@@ -964,10 +964,34 @@ footer {
 }
 
 .newsletter-container {
-    height: 288px;
-    width: 332px;
+    height: 336px;
+    /* width: 332px; */
+    padding-bottom: 80px;
+}
+
+.newsletter-container h3 {
+    font-family: "Proxima Nova Condensed Bold";
+    font-size: 16px;
+    line-height: 16px;
+    color:#FFFEF4;
+}
+
+.signup {
+    height: 96px;
+}
+
+.signup-text{
+    font-family: "PT Serif";
+    line-height: 32px;
+    opacity: .6;
+    color:#FFFEF4;
 }
 
 .copyright {
-    width: 332px;
+    /* width: 332px; */
+    font-family: "PT Serif";
+    font-size: 16px;
+    line-height: 32px;
+    opacity: .6;
+    color:#FFFEF4;
 }
