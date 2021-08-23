@@ -978,6 +978,20 @@ footer {
 
 .signup {
     height: 96px;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+input,
+input:focus, {
+    font-family: "PT Serif";
 }
 
 .signup-text{
