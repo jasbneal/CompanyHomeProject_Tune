@@ -982,7 +982,7 @@ footer {
 
 .signup-form {
     height: 96px;
-    background-color: hsla(0,0%,100%,.2);
+    background-color:hsla(0,0%,100%,.2);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -991,7 +991,7 @@ footer {
 }
 
 .signup-input {
-    background-color: hsla(0,0%,100%, .2);
+    background-color: transparent;
     min-width: 50%;
     max-width: 70%;
     color: #ffffff;
