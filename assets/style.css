@@ -959,14 +959,18 @@ button.play-pinkback-whitefill {
 /* Footer */
 footer {
     width: 100%;
+    padding: 0 70px;
     display: flex;
     background-color: #2c2e2c;
+    flex-direction: column;
 }
 
 .newsletter-container {
-    height: 336px;
+    height: 288px;
+    max-width: 700px;
     /* width: 332px; */
-    padding-bottom: 80px;
+    margin-top: 67px;
+    /* margin-bottom: 80px; */
 }
 
 .newsletter-container h3 {
@@ -976,9 +980,26 @@ footer {
     color:#FFFEF4;
 }
 
-.signup {
+.signup-form {
     height: 96px;
     background-color: hsla(0,0%,100%,.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 0 30px;
+}
+
+.signup-input {
+    background-color: hsla(0,0%,100%, .2);
+    min-width: 50%;
+    max-width: 70%;
+    color: #ffffff;
+    font-family: "Helvetica";
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    line-height: 16px;
+    font-weight: 700;
 }
 
 input {
@@ -986,12 +1007,29 @@ input {
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: hidden;
-    background-color: hsla(0,0%,100%,.2);
+    outline: none;
 }
 
 input,
 input:focus, {
-    font-family: "PT Serif";
+    font-family: "Helvetica";
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+input.button {
+    background-color: #FFD0B6;
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    font-family: 'Helvetica';
+    line-height: 16px;
+    font-weight: 700;
+}
+
+input.button:hover {
+    cursor: pointer;
 }
 
 .signup-text{
@@ -1008,4 +1046,5 @@ input:focus, {
     line-height: 32px;
     opacity: .6;
     color:#FFFEF4;
+    padding-bottom: 20px;
 }

@@ -290,15 +290,10 @@
     <footer>
         <div class="newsletter-container">
             <h3>Newsletter</h3>
-            <div class="signup">
-                <div class="signup-form">
-                    <form action="/account" method="POST">
-                        <input class="signup-input" type="text" name="newsletter-email" value="name@example.com">
-                        <input class="signup-submit" type="submit" value="SIGN UP">
-                    </form>
-                </div>
-
-            </div>
+            <form class="signup-form" action="/account" method="POST">
+                <input class="signup-input" type="text" name="newsletter-email" value="EMAIL ADDRESS">
+                <input class="button" type="submit" value="SIGN UP">
+            </form>
             <p class="signup-text">Sign up for the Tune newsletter to be the first to know about upcoming events, collaborations and launches.</p>
         </div>
         <p class="copyright">© Copyright Conscious Patterns Inc.</p>
