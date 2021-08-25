@@ -959,9 +959,14 @@ button.play-pinkback-whitefill {
 /* Footer */
 footer {
     width: 100%;
+    background-color: #2c2e2c;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
     padding: 0 70px;
     display: flex;
-    background-color: #2c2e2c;
     flex-direction: column;
 }
 
@@ -1040,11 +1045,16 @@ input.button:hover {
 }
 
 .copyright {
-    /* width: 332px; */
     font-family: "PT Serif";
     font-size: 16px;
     line-height: 32px;
     opacity: .6;
     color:#FFFEF4;
     padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        padding: 0 10px;
+    }
 }

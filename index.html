@@ -3,6 +3,7 @@
 <head>
     <title>Tune - Human Potential Powered by Sound</title>
     <link href="./assets/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./script.js" defer></script>
 </head>
 <body>
     <!--Navigation Bar: static eggshell background, no transition from transparent to eggshell background-->
@@ -43,8 +44,8 @@
                 <img src="./assets/images/home-landing-img.jpeg">
             </div>
             <div class="landing-header">
-                <h1>Adapt or die.</h1>
-                <h1>Tune to thrive.</h1>
+                <h1>Performance tech</h1>
+                <h1>for your nervous system</h1>
                 <h3>15-minute sound and vibration sessions to recalibrate and maintain the nervous system</h3>
                 <h4>Locations in New York City, Chicago, Huntington and Toronto</h4>
                 <h4>Sessions start at $10</h4>
@@ -287,16 +288,19 @@
             </div>
         </div>
     </main>
+    <!--Footer-->
     <footer>
-        <div class="newsletter-container">
-            <h3>Newsletter</h3>
-            <form class="signup-form" action="/account" method="POST">
-                <input class="signup-input" type="text" name="newsletter-email" value="EMAIL ADDRESS">
-                <input class="button" type="submit" value="SIGN UP">
-            </form>
-            <p class="signup-text">Sign up for the Tune newsletter to be the first to know about upcoming events, collaborations and launches.</p>
+        <div class="footer-container">
+            <div class="newsletter-container">
+                <h3>Newsletter</h3>
+                <form class="signup-form" action="/account" method="POST">
+                    <input class="signup-input" id="signup-input" type="text" name="newsletter-email" value="EMAIL ADDRESS">
+                    <input class="button" type="submit" value="SIGN UP">
+                </form>
+                <p class="signup-text">Sign up for the Tune newsletter to be the first to know about upcoming events, collaborations and launches.</p>
+            </div>
+            <p class="copyright">© Copyright Conscious Patterns Inc.</p>
         </div>
-        <p class="copyright">© Copyright Conscious Patterns Inc.</p>
     </footer> 
 </body>
 </html>
