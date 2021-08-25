@@ -655,7 +655,7 @@ button.play-pinkback-whitefill {
 .tune-sessions {
     width: 100%;
     background-color: #2d2e2c;
-    height: 667px;
+    min-height: 667px;
     padding: 100px 0 167px 0;
     margin-bottom: 40px;
 }
@@ -703,10 +703,12 @@ button.play-pinkback-whitefill {
     display: block;
     padding: 40%;
 }
+
 .sessions-copy {
     font-family: 'Proxima Nova Regular';
     width: 100%;
-    height: 163px;
+    min-height: 163px;
+    max-height: 375px;
     color: rgba(255,254,244,.6);
     line-height: 32px;
 }
@@ -767,6 +769,7 @@ button.play-pinkback-whitefill {
     .sessions-learn-more {
         margin-top: 42px;
     }
+
 }
 
 /* Section 6: Locations */
@@ -1052,7 +1055,7 @@ input.button:hover {
 }
 
 @media only screen and (max-width: 500px) {
-    footer {
+    .footer-container {
         padding: 0 10px;
     }
 }
