@@ -766,6 +766,7 @@ button.play-pinkback-whitefill {
 
     .tune-sessions {
         padding: 50px 10px;
+        min-height: 567px;
     }
 
     .sessions-text {
@@ -779,13 +780,11 @@ button.play-pinkback-whitefill {
     .sessions-learn-more {
         margin-top: 42px;
     }
-
 }
 
 /* Section 6: Locations */
 .loc-container {
     width: 100%;
-
 }
 
 .locations {
@@ -816,9 +815,7 @@ button.play-pinkback-whitefill {
 .location-block {
     margin: 20px;
     width: 328px;
-    min-width: 328px;
     height: 283px;
-    min-height: 283px;
     border: 1px solid #FCE7D5;
 }
 
@@ -840,7 +837,7 @@ button.play-pinkback-whitefill {
     padding-top: 22px;
     height: 87px;
     width: 100%;
-    color: #222222;
+    color: #2C2E2C;
     font-family: "PT Serif";
     font-size: 18px;
     letter-spacing: 0;
@@ -877,10 +874,18 @@ button.play-pinkback-whitefill {
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 340px) {
     .location-block {
         margin: 10px;
-        width: 275px;
+        width: 260px;
+    }
+
+    .location-block h3 {
+        width: 243px;
+    }
+
+    .loc-book {
+        margin: 0 31px 29px 153px;
     }
 }
 
