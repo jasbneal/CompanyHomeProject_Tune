@@ -325,7 +325,6 @@ text and CTA button.  */
 .bed-video-title {
     padding: 0 15px;
     display: flex;
-    justify-items: center;
     flex-direction: column;
     align-items: center;
 }
