@@ -437,10 +437,8 @@ button.play-pinkback-whitefill {
 
 .tuning-large-img-container {
     margin: 0 15px;
-    min-width: 330px;
-    max-width: 330px;
-    min-height: 509px;
-    max-height: 509px;
+    width: 330px;
+    height: 509px;
     overflow: hidden;
 }
 
@@ -448,7 +446,6 @@ button.play-pinkback-whitefill {
     height: 100%;
     width: auto;
     transform: translateX(-20%)
-    /* object-fit: cover; */
 }
 
 .tuning-small-img-block {
@@ -482,6 +479,10 @@ button.play-pinkback-whitefill {
 
     .tuning-text-container {
         width: 50%;
+    }
+
+    .tuning-imgs {
+        padding-top: 48px;
     }
 }
 
