@@ -297,10 +297,7 @@ text and CTA button.  */
 
 .main-home-content {
     position: relative;
-    margin-top: -105px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 96px;
+    margin: -105px auto 96px auto;
     width: 100%;
     padding: 0 70px;
     max-width: 1280px;
@@ -310,7 +307,7 @@ text and CTA button.  */
 @media only screen and (max-width: 900px) {
     .main-home-content {
         padding: 0 10px;
-        margin-top: 0;
+        margin: 0 auto 66px auto;
     }
 }
 
