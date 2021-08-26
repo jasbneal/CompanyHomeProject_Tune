@@ -996,7 +996,8 @@ footer {
 }
 
 .newsletter-container {
-    height: 288px;
+    min-height: 288px;
+    max-height: 400px;
     max-width: 700px;
     margin-top: 67px;
 }
@@ -1027,7 +1028,7 @@ footer {
     font-size: 14px;
     letter-spacing: 1.17px;
     line-height: 16px;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 input {
@@ -1073,11 +1074,15 @@ input.button:hover {
     line-height: 32px;
     opacity: .6;
     color:#FFFEF4;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 @media only screen and (max-width: 500px) {
     .footer-container {
+        padding: 0 10px;
+    }
+
+    .signup-form {
         padding: 0 10px;
     }
 }
