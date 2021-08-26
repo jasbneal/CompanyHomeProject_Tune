@@ -556,7 +556,6 @@ button.play-pinkback-whitefill {
     min-height: 593px;
     padding: 20px;
     border: 1px solid #FCE7D5;
-    
 }
 
 .how-it-works-container h2 {
@@ -641,15 +640,23 @@ button.play-pinkback-whitefill {
 }
 
 @media only screen and (max-width: 990px) {
+    .how-it-works-container h2 {
+        margin: 12px 0 58px;
+    }
+    
     .hiw-icon-container {
         display: flex;
         flex-direction: column;
     }
 
+    .hiw-icon-text p {
+        line-height: 1.5rem;
+    }
+
     .hiw-1,
     .hiw-2,
     .hiw-3 {
-        padding: 16px;
+        padding: 16px 0;
         width: 100%;
     }
 }
