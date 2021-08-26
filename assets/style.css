@@ -889,7 +889,7 @@ button.play-pinkback-whitefill {
     }
 }
 
-/* Section 7: Our Story / Team / Founders */
+/* Section 7: Founders */
 .team-container {
     width: 100%;
     max-width: 1280px;
@@ -930,14 +930,11 @@ button.play-pinkback-whitefill {
 .founder-img1 {
     width: 100%;
     transform: translateY(-20%);
-    display: block;
 }
 
 .founder-img2 {
     width: 100%;
-    height: auto;
     transform: translateY(-20%);
-    display: block;
 }
 
 .founder h4 {
@@ -959,6 +956,10 @@ button.play-pinkback-whitefill {
 }
 
 @media only screen and (max-width: 990px) {
+    .team-container {
+        padding: 15px;
+    }
+    
     .team {
         display: flex;
         flex-direction: column;
@@ -967,6 +968,12 @@ button.play-pinkback-whitefill {
 
     .founder {
         width: 100%;
+        padding: 20px 0;
+    }
+
+    .founder h4 {
+        width: 100%;
+        text-align: center;
     }
 
     .founder-bio {
