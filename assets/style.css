@@ -1028,7 +1028,7 @@ footer {
     font-size: 14px;
     letter-spacing: 1.17px;
     line-height: 16px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 input {
@@ -1040,12 +1040,12 @@ input {
 }
 
 input,
-input:focus, {
+input:focus {
     font-family: "Helvetica";
     font-size: 14px;
     letter-spacing: 1.17px;
     line-height: 16px;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 input.button {
