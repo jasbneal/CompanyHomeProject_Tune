@@ -960,6 +960,17 @@ button.play-pinkback-whitefill {
         padding: 15px;
     }
     
+    .founder h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .founder-bio {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
     .team {
         display: flex;
         flex-direction: column;
@@ -969,15 +980,6 @@ button.play-pinkback-whitefill {
     .founder {
         width: 100%;
         padding: 20px 0;
-    }
-
-    .founder h4 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .founder-bio {
-        display: none;
     }
 }
 
